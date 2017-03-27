@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.contacts.ContactForm">
+  <grid id="27dc6" binding="rootPanel" custom-create="true" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="500" height="435"/>
+    </constraints>
+    <properties>
+      <background color="-1644826"/>
+      <minimumSize width="410" height="100"/>
+      <preferredSize width="0" height="65"/>
+    </properties>
+    <border type="empty">
+      <size top="5" left="20" bottom="5" right="5"/>
+    </border>
+    <children>
+      <grid id="ec968" binding="photoPanel" custom-create="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="0" column="0" row-span="3" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+          <minimumSize width="41" height="41"/>
+          <opaque value="false"/>
+          <preferredSize width="41" height="41"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <grid id="a4b62" layout-manager="GridBagLayout">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="5" bottom="0" right="0" weightx="1.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <minimumSize width="0" height="41"/>
+          <opaque value="false"/>
+          <preferredSize width="0" height="41"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="278af" class="javax.swing.JLabel" binding="contactName">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.1" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <font name="Georgia" size="18" style="1"/>
+              <text value="ContactName"/>
+            </properties>
+          </component>
+          <component id="47bcd" class="javax.swing.JLabel" binding="lastMessage">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="8" fill="2" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="0.1" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-9869210"/>
+              <foreground color="-9869210"/>
+              <text value="LastMessage"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="5e60d" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="4" fill="2" indent="0" use-parent-layout="false"/>
+          <gridbag top="0" left="5" bottom="0" right="5" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <minimumSize width="34" height="26"/>
+          <opaque value="false"/>
+          <preferredSize width="34" height="26"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="d7494" class="javax.swing.JLabel" binding="timeLastMessage">
+            <constraints/>
+            <properties>
+              <background color="-9869210"/>
+              <foreground color="-5526872"/>
+              <text value="time"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.contacts.PersonForm">
+  <grid id="27dc6" binding="rootPanel" custom-create="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+    <constraints>
+      <xy x="20" y="20" width="500" height="400"/>
+    </constraints>
+    <properties>
+      <background color="-9869210"/>
+      <minimumSize width="0" height="40"/>
+      <opaque value="false"/>
+      <preferredSize width="0" height="40"/>
+    </properties>
+    <border type="empty">
+      <size top="5" left="5" bottom="5" right="5"/>
+    </border>
+    <children>
+      <grid id="9ca4c" binding="photoPanel" custom-create="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints/>
+        <properties>
+          <minimumSize width="30" height="30"/>
+          <preferredSize width="30" height="30"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <component id="1639e" class="javax.swing.JLabel" binding="personName">
+        <constraints/>
+        <properties>
+          <foreground color="-3882047"/>
+          <opaque value="false"/>
+          <text value="Person Name"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

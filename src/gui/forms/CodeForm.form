@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.forms.CodeForm">
+  <grid id="27dc6" binding="rootPanel" custom-create="true" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="-6" y="20" width="465" height="799"/>
+    </constraints>
+    <properties>
+      <autoscrolls value="false"/>
+      <minimumSize width="100" height="799"/>
+      <opaque value="true"/>
+      <preferredSize width="100" height="799"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <component id="27947" class="javax.swing.JPasswordField" binding="code" custom-create="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="20" left="0" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <background color="-1513240"/>
+          <caretColor color="-1"/>
+          <disabledTextColor color="-1"/>
+          <font name="Courier New" size="24"/>
+          <foreground color="-1"/>
+          <maximumSize width="170" height="50"/>
+          <minimumSize width="170" height="50"/>
+          <opaque value="false"/>
+          <preferredSize width="170" height="50"/>
+          <requestFocusEnabled value="true"/>
+        </properties>
+      </component>
+      <component id="2bfbe" class="javax.swing.JButton" binding="continium">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="40" left="0" bottom="0" right="0" weightx="0.0" weighty="0.1"/>
+        </constraints>
+        <properties>
+          <background color="-14177560"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="true"/>
+          <defaultCapable value="false"/>
+          <focusable value="false"/>
+          <foreground color="-196624"/>
+          <hideActionText value="false"/>
+          <horizontalTextPosition value="0"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <maximumSize width="337" height="65"/>
+          <minimumSize width="337" height="65"/>
+          <opaque value="false"/>
+          <preferredSize width="337" height="65"/>
+          <text value=""/>
+          <verifyInputWhenFocusTarget value="true"/>
+          <verticalTextPosition value="0"/>
+        </properties>
+      </component>
+      <grid id="468c8" binding="logoMiniPane" custom-create="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="30" left="0" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="124" height="98"/>
+          <minimumSize width="124" height="98"/>
+          <opaque value="false"/>
+          <preferredSize width="124" height="98"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+      <component id="aca48" class="javax.swing.JTextPane" binding="phoneNumber">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="2" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+          <gridbag top="50" left="0" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <disabledTextColor color="-3882047"/>
+          <foreground color="-3882047"/>
+          <opaque value="false"/>
+          <text value="+7 900 078-59-39"/>
+        </properties>
+      </component>
+      <component id="8fb48" class="javax.swing.JTextPane" binding="textPane">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+          <gridbag top="20" left="0" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <alignmentX value="0.0"/>
+          <alignmentY value="0.0"/>
+          <disabledTextColor color="-3882047"/>
+          <doubleBuffered value="true"/>
+          <dropMode value="USE_SELECTION"/>
+          <editable value="false"/>
+          <enabled value="false"/>
+          <font/>
+          <foreground color="-3882047"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <minimumSize width="233" height="57"/>
+          <opaque value="false"/>
+          <text value="На данный номер телефона было отправлено&#10;SMS-сообщение с кодом подтверждения.&#10;Пожалуйста, введите этот код в поле ниже:"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>

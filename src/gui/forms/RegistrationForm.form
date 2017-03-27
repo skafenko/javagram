@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="gui.forms.RegistrationForm">
+  <grid id="27dc6" binding="rootPanel" custom-create="true" layout-manager="GridBagLayout">
+    <constraints>
+      <xy x="20" y="20" width="500" height="560"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="7c532" class="javax.swing.JTextPane" binding="textPane">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+          <gridbag top="45" left="0" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <autoscrolls value="true"/>
+          <background color="-1513240"/>
+          <caretColor color="-3882047"/>
+          <disabledTextColor color="-3882047"/>
+          <doubleBuffered value="true"/>
+          <editable value="false"/>
+          <enabled value="false"/>
+          <foreground color="-3882047"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <opaque value="false"/>
+          <selectedTextColor color="-3882047"/>
+          <text value="Введите  ваши имя и фамилия&#10;для завершения регистрации"/>
+          <verifyInputWhenFocusTarget value="true"/>
+        </properties>
+      </component>
+      <component id="3688d" class="javax.swing.JTextField" binding="firstName" custom-create="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="40" left="0" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <alignmentX value="0.0"/>
+          <alignmentY value="0.0"/>
+          <caretColor color="-1"/>
+          <disabledTextColor color="-3882047"/>
+          <foreground color="-3882047"/>
+          <horizontalAlignment value="2"/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <maximumSize width="250" height="50"/>
+          <minimumSize width="250" height="50"/>
+          <opaque value="false"/>
+          <preferredSize width="250" height="50"/>
+          <toolTipText value=""/>
+        </properties>
+      </component>
+      <component id="3cfef" class="javax.swing.JTextField" binding="lastName" custom-create="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+          <gridbag top="15" left="0" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <alignmentX value="0.0"/>
+          <alignmentY value="0.0"/>
+          <caretColor color="-1"/>
+          <disabledTextColor color="-3882047"/>
+          <foreground color="-3882047"/>
+          <maximumSize width="250" height="50"/>
+          <minimumSize width="250" height="50"/>
+          <opaque value="false"/>
+          <preferredSize width="250" height="50"/>
+        </properties>
+      </component>
+      <component id="57bdf" class="javax.swing.JButton" binding="continium">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="65" left="0" bottom="0" right="0" weightx="0.0" weighty="0.1"/>
+        </constraints>
+        <properties>
+          <background color="-14177560"/>
+          <borderPainted value="false"/>
+          <contentAreaFilled value="false"/>
+          <defaultCapable value="false"/>
+          <focusable value="false"/>
+          <font/>
+          <foreground color="-196624"/>
+          <hideActionText value="false"/>
+          <horizontalTextPosition value="0"/>
+          <iconTextGap value="4"/>
+          <label value=""/>
+          <margin top="0" left="0" bottom="0" right="0"/>
+          <maximumSize width="337" height="65"/>
+          <minimumSize width="337" height="65"/>
+          <opaque value="true"/>
+          <preferredSize width="337" height="65"/>
+          <text value=""/>
+          <verticalAlignment value="0"/>
+          <verticalTextPosition value="0"/>
+        </properties>
+      </component>
+      <grid id="62c15" binding="logoMiniPane" custom-create="true" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+          <gridbag top="30" left="0" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+        </constraints>
+        <properties>
+          <maximumSize width="124" height="98"/>
+          <minimumSize width="124" height="98"/>
+          <opaque value="false"/>
+          <preferredSize width="124" height="98"/>
+        </properties>
+        <border type="none"/>
+        <children/>
+      </grid>
+    </children>
+  </grid>
+</form>

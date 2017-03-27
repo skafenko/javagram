@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="overlays.ProfileForm">
+  <grid id="27dc6" binding="rootPanel" custom-create="true" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="638" height="451"/>
+    </constraints>
+    <properties>
+      <background color="-1644826"/>
+      <minimumSize width="200" height="200"/>
+      <opaque value="false"/>
+      <preferredSize width="200" height="200"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <grid id="69a15" binding="mainPanel" layout-manager="GridBagLayout">
+        <constraints border-constraint="Center"/>
+        <properties>
+          <background color="-1644826"/>
+          <opaque value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="1c61a" class="javax.swing.JLabel" binding="titleName">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+              <gridbag top="70" left="0" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-14177560"/>
+              <foreground color="-14177560"/>
+              <opaque value="false"/>
+              <text value="Настройки профиля"/>
+            </properties>
+          </component>
+          <component id="39c43" class="javax.swing.JTextField" binding="firstName">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag top="50" left="0" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <alignmentX value="0.0"/>
+              <alignmentY value="0.0"/>
+              <caretColor color="-1"/>
+              <disabledTextColor color="-3882047"/>
+              <foreground color="-3882047"/>
+              <horizontalAlignment value="2"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <maximumSize width="250" height="50"/>
+              <minimumSize width="250" height="50"/>
+              <opaque value="false"/>
+              <preferredSize width="250" height="50"/>
+              <toolTipText value=""/>
+            </properties>
+          </component>
+          <component id="80633" class="javax.swing.JTextField" binding="lastName">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="6" anchor="1" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+              <gridbag top="15" left="0" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <alignmentX value="0.0"/>
+              <alignmentY value="0.0"/>
+              <caretColor color="-1"/>
+              <disabledTextColor color="-3882047"/>
+              <foreground color="-3882047"/>
+              <horizontalAlignment value="2"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <maximumSize width="250" height="50"/>
+              <minimumSize width="250" height="50"/>
+              <opaque value="false"/>
+              <preferredSize width="250" height="50"/>
+              <toolTipText value=""/>
+            </properties>
+          </component>
+          <component id="9129b" class="javax.swing.JButton" binding="saveButton">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="1" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="120" left="0" bottom="0" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <autoscrolls value="false"/>
+              <background color="-14177560"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <defaultCapable value="false"/>
+              <doubleBuffered value="false"/>
+              <enabled value="true"/>
+              <focusPainted value="true"/>
+              <focusable value="false"/>
+              <font/>
+              <foreground color="-1"/>
+              <hideActionText value="false"/>
+              <horizontalTextPosition value="0"/>
+              <iconTextGap value="4"/>
+              <label value=""/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <maximumSize width="337" height="65"/>
+              <minimumSize width="337" height="65"/>
+              <opaque value="false"/>
+              <preferredSize width="337" height="65"/>
+              <requestFocusEnabled value="true"/>
+              <rolloverEnabled value="true"/>
+              <selected value="false"/>
+              <text value=""/>
+              <verticalAlignment value="0"/>
+              <verticalTextPosition value="0"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="c5254" binding="bottomPanel" layout-manager="GridBagLayout">
+        <constraints border-constraint="South"/>
+        <properties>
+          <opaque value="false"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="a96ee" class="javax.swing.JButton" binding="closeButton">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="20" left="50" bottom="30" right="0" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <focusPainted value="true"/>
+              <label value=""/>
+              <maximumSize width="35" height="35"/>
+              <minimumSize width="35" height="35"/>
+              <opaque value="false"/>
+              <preferredSize width="35" height="35"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="35b6f" class="javax.swing.JButton" binding="logoutButton">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag top="0" left="5" bottom="0" right="40" weightx="0.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <borderPainted value="false"/>
+              <contentAreaFilled value="false"/>
+              <focusPainted value="false"/>
+              <foreground color="-14177560"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <maximumSize width="100" height="40"/>
+              <minimumSize width="100" height="40"/>
+              <opaque value="false"/>
+              <preferredSize width="100" height="40"/>
+              <text value="выйти"/>
+            </properties>
+          </component>
+          <component id="75201" class="javax.swing.JLabel" binding="phoneNumber">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+              <gridbag weightx="1.0" weighty="0.0"/>
+            </constraints>
+            <properties>
+              <background color="-9869210"/>
+              <foreground color="-1"/>
+              <opaque value="false"/>
+              <text value="ssafsadfs"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
